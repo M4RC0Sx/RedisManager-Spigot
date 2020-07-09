@@ -1,0 +1,9 @@
+main: com.github.m4rc0sx.RedisManager
+name: RedisManager
+version: '1.0'
+description: A simple RedisManager to handle pub-sub in your Spigot server.
+author: M4RC0Sx
+commands:
+  redispub:
+    description: Publish a message in Redis channel.
+    usage: /<command>
