@@ -30,6 +30,15 @@ public class RedisManager extends JavaPlugin {
 
     }
 
+    @Override
+    public void onDisable() {
+
+        singleInstance = null;
+
+        getLogger().info("RedisManger by: M4RC0Sx - DISABLED");
+
+    }
+
     public RedisPubSub getRedisPubSub() {
         return this.redisPubSub;
     }
